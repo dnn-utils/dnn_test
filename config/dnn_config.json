@@ -6,9 +6,10 @@
             "input_files" : [
                 "/Users/dantrim/workarea/physics_analysis/wwbb/danny_learns_dihiggs/samples/bdefs/CENTRAL_123456.h5"
             ],
-            "label" : 0,
+            "class_label" : 0,
             "weights" : [
-            ]
+            ],
+            "tree_name" : "superNt"
         },
         {
             "name" : "ttbar",
@@ -17,7 +18,8 @@
             ],
             "class_label" : 1,
             "weights" : [
-            ]
+            ],
+            "tree_name" : "superNt"
         }
     ],
     "input_features" : [
