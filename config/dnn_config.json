@@ -1,0 +1,39 @@
+{
+    "name" : "test_nn",
+    "input_classes" : [
+        {
+            "name" : "hh",
+            "input_files" : [
+                "/Users/dantrim/workarea/physics_analysis/wwbb/danny_learns_dihiggs/samples/bdefs/CENTRAL_123456.h5"
+            ],
+            "label" : 0,
+            "weights" : [
+            ]
+        },
+        {
+            "name" : "ttbar",
+            "input_files" : [
+                "/Users/dantrim/workarea/physics_analysis/wwbb/danny_learns_dihiggs/samples/bdefs/CENTRAL_410009_0to10.h5"
+            ],
+            "class_label" : 1,
+            "weights" : [
+            ]
+        }
+    ],
+    "input_features" : [
+        "met"
+        ,"mll"
+        ,"dRll"
+        ,"HT2Ratio"
+        ,"mt2_bb"
+    ],
+    "event_index_string" : "",
+    "regress_features" : [
+    ],
+    "training_set_fraction" :
+        {
+            "fraction" : 0.5,
+            "sample" : "hh"
+        },
+    "validation_set_fraction" : 0.2
+}
